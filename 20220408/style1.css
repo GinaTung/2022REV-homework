@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    border-left:3px solid red ;
+    border-bottom: 5px solid red;
+}
+p:active{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+img{
+    border: 5px solid gray;
+}
+.style {
+    text-decoration: line-through;
+}
