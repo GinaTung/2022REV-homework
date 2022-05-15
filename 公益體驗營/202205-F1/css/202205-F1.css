@@ -46,8 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+    font-family: "PingFangTC-Semibold", sans-serif;
+}
 *,*:before,*:after{
     box-sizing: border-box;
+
 }
 .fz-co-primary{
     color:#3F5D45;
@@ -114,6 +118,7 @@ h2{
     line-height: 1.5;
     padding: 15px 0;
     text-align: center;
+    font-weight: bold;
 }
 .aside-list li{
     font-size: 24px;
@@ -123,6 +128,7 @@ h2{
 }
 .aside-list li a{
     text-decoration: none;
+    font-weight: bold;
 }
 .content{
     width: 68.1%;
@@ -137,15 +143,35 @@ h2{
 .productListCard{
     max-width: 300px;
     margin-bottom: 20px;
+    position: relative;
+}
+.productListCard img{
+    display: block;
+}
+.tag{
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    padding:16px 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.heart{
+    position: absolute;
+    right: 22px;
 }
 .productListCardbody{
     display: flex;
+    border:1px solid #EAF0ED;
 }
 h3{
     font-size: 20px;
     width: 57.6%;
     line-height: 1;
     padding: 14px 0;
+
 }
 .productListCardbody span{
     font-size: 20px;
@@ -153,6 +179,7 @@ h3{
     line-height: 1.2;
     padding: 14px 0;
     font-weight: bold;
+    border-left:1px solid #EAF0ED;
 }
 .productListCard a{
     display: block;
