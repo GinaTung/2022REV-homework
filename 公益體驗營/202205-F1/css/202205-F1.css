@@ -97,7 +97,7 @@ body{
     color:#EAF0ED;
     background:#3F5D45;
 }
-.card-img{
+.cardImg{
     margin-left: 80px;
 }
 .banner{
@@ -105,6 +105,7 @@ body{
 }
 .banner img{
     max-width: 100%;
+    display: block;
 }
 .main{
     display: flex;
