@@ -150,6 +150,7 @@ h2{
     display: block;
 }
 .tag{
+    /* 文字改直書 */
     writing-mode: vertical-lr;
     position: absolute;
     left: 20px;
