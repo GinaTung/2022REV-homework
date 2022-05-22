@@ -110,6 +110,10 @@ p{
     display: flex;
     background: #e7eeea;
     flex-direction: column;
+    margin-bottom: 10px;
+}
+.addContent li{
+    margin: 24px 20px;
 }
 .footer{
     background: gray;
