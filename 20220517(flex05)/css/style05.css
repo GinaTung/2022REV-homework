@@ -64,7 +64,39 @@ table {
     text-decoration: none;
     margin: 10px;
 }
-
+.content{
+    background: #e7eeea;
+    display: flex;
+    margin-bottom: 10px;
+}
+.content li{
+    display: flex;
+    font-size: 16px;
+    margin: 24px 20px;
+}
+img{
+    width: 50px;
+    display: block;
+}
+.content-article{
+    margin: 0 10px;
+}
+h2{
+    color: #37523d;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.article{
+    background: #e7eeea;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 .footer{
     background: gray;
     text-align: center;
