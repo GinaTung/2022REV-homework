@@ -74,7 +74,7 @@ table {
     font-size: 16px;
     margin: 24px 20px;
 }
-img{
+.logo img{
     width: 50px;
     display: block;
 }
@@ -85,17 +85,28 @@ h2{
     color: #37523d;
     margin-bottom: 16px;
     font-weight: bold;
+    font-size: 18px;
 }
 p{
     font-size: 14px;
     line-height: 1.2;
+    color: #37523d;
 }
 .article{
     background: #e7eeea;
     display: flex;
-    justify-content: center;
     text-align: center;
-    align-items: center;
+    margin-bottom: 10px;
+}
+.article li{
+    margin: 24px 20px;
+    color: #37523d;
+    font-size: 14px;
+}
+.addContent{
+    display: flex;
+    background: #e7eeea;
+    flex-direction: column;
 }
 .footer{
     background: gray;
