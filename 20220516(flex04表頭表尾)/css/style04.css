@@ -50,20 +50,6 @@ table {
     margin:0 auto;
     max-width: 1275px;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.menu{
-    display: flex;
-}
-.menu li a{
-    display: block;
-    text-decoration: none;
-    margin: 10px;
-}
 
 .header2{
     display: flex;
@@ -126,4 +112,14 @@ p{
     padding-top: 10px;
     padding-bottom: 10px;
     color:white
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color:#fff;
 }

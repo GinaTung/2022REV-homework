@@ -46,75 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 .wrap{
     margin:0 auto;
     width: 1165px;
 }
-
-.content{
-    background: #e7eeea;
-    display: flex;
-    margin-bottom: 10px;
-}
-.content li{
-    display: flex;
-    font-size: 16px;
-    margin: 24px 20px;
-}
-.logo img{
-    width: 50px;
-    display: block;
-}
-.content-article{
-    margin: 0 10px;
-}
-h2{
-    color: #37523d;
-    margin: 8px 0 16px 0;
-    font-weight: bold;
-    font-size: 18px;
-}
-p{
-    font-size: 14px;
-    line-height: 1.2;
-    color: #37523d;
-}
-.article{
-    background: #e7eeea;
-    display: flex;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.article li{
-    margin: 24px 20px;
-    color: #37523d;
-    font-size: 14px;
-}
-.addContent{
-    display: flex;
-    background: #e7eeea;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-.addContent li{
-    margin: 24px 20px;
-    display: flex;
-}
-.addContent-items{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.addContent-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.addContent-item2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .footer{
     background: gray;
     text-align: center;
