@@ -46,14 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*,*::before,*::after{
+*,*:before,*:after{
     box-sizing: border-box;
 }
 .wrap{
     margin:0 auto;
-    width: 905px;
+    width: 1140px;
 }
-
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 795px;
+    background: #e7eeea;
+}
+img{
+    display: block;
+    margin-bottom: 15px;
+}
+h1{
+    color: #37523d;
+    font-size: 28px;
+    font-weight: bold;
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; 
+}
+.menu2 li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #37523d;
+}
 .footer{
     background: gray;
     text-align: center;
