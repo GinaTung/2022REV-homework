@@ -1,0 +1,10 @@
+body{
+	font-family: "PingFangTC-Semibold", sans-serif;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+$primary:red;
+h1{
+    color:$primary;
+}

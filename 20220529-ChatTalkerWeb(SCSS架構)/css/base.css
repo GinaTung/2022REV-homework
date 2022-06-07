@@ -1,0 +1,13 @@
+body {
+  font-family: "PingFangTC-Semibold", sans-serif;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+/*# sourceMappingURL=base.css.map */
