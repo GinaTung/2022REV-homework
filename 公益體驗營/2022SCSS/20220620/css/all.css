@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+.header a {
+  color: #ff1511;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.content a {
+  color: #ff1511;
+  font-size: 18px;
+}
+
+.content h2 {
+  font-family: "momospace";
+}
+
+.box1 {
+  background: #1d845c;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  background: #0b3022;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.box3 {
+  background: #34d395;
+  width: 100px;
+  height: 100px;
+}
+
+.footer a {
+  color: #ff1511;
+  font-size: 21.6px;
+}
+/*# sourceMappingURL=all.css.map */

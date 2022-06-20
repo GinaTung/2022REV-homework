@@ -1,0 +1,45 @@
+$link-color:#ff1511;
+$font-lh:1.5;
+$font-m:18px;
+$font-l:$font-m*1.2;
+$font-family-base:"Arial, Helvetica, sans-serif";
+$font-family-title:"momospace";
+$bg-color:#1d845c;
+
+body{
+    font-family: $font-family-base;
+}
+.header a{
+    color:$link-color;
+    font-weight: bold;
+    line-height: $font-lh;
+}
+.content a{
+    color:$link-color;
+    font-size: $font-m;
+    
+}
+.content h2{
+    font-family: $font-family-title;
+}
+.box1{
+    background: $bg-color;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.box2{
+    background: darken($bg-color,20%);
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.box3{
+    background: lighten($bg-color,20%);
+    width: 100px;
+    height: 100px;
+}
+.footer a{
+    color: $link-color;
+    font-size: $font-l;
+}
