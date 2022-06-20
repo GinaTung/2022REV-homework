@@ -1,0 +1,17 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  body{
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content img{
+    margin: 5px;
+    display: block;
+    max-width: 32%;
+  }
