@@ -1,0 +1,29 @@
+body{
+    font-family: $font-family-base;
+}
+.header {
+    margin-bottom: 10px;
+    h1{
+        color:$link-color2;
+        font-size: $font-xl;
+        margin-bottom: 10px;
+    }
+    a{
+    color:$link-color;
+    font-weight: bold;
+    line-height: $font-lh;
+    }
+}
+.footer {
+    h2{
+        color: $font-color;
+    }
+    a{
+    color: $link-color;
+    font-size: $font-l;
+    }
+}
+.l-list a{
+    color: $link-color2;
+    text-decoration: none;
+}

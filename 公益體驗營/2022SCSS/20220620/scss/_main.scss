@@ -1,0 +1,50 @@
+body{
+    font-family: $font-family-base;
+}
+.header {
+    margin-bottom: 10px;
+    h1{
+        color:$link-color2;
+        font-size: $font-xl;
+        margin-bottom: 10px;
+    }
+    a{
+    color:$link-color;
+    font-weight: bold;
+    line-height: $font-lh;
+    }
+}
+.content {
+    margin-bottom: 10px;
+    a{
+        color:$link-color;
+        font-size: $font-m;
+    }
+     h2{
+        font-family: $font-family-title;
+       }
+       .box1{
+        background: $bg-color;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .box2{
+        background: darken($bg-color,20%);
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .box3{
+        background: lighten($bg-color,20%);
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+.footer a{
+    color: $link-color;
+    font-size: $font-l;
+}
